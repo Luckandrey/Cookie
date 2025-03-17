@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+.textoeimagem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.texto {
+    flex: 1;
+    padding-right: 19px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.textoeimagem img {
+    max-width: 40%;
+    border-radius: 15px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+}
+
+.funcionalidades ul {
+    list-style: none;
+    padding: 0;
+}
+
+.funcionalidades ul li {
+    margin-bottom: 20px;
+}
+
+.funcionalidades {
+    background: #ffffff;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
+/* Cards */
+
+section.cards {
+    padding: 30px 0;
+}
+
+.cards h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center; 
+}
+
+.cards .container {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    flex-direction: row;
+}
+
+.card-single {
+    width: 30%; 
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+}
+
+.card-single img {
+    width: 100%; 
+    border-radius: 10px; 
+}
+
+.card-single h3 {
+    margin-top: 5px;
+    font-weight: normal;
+    font-size: 19px;
+    color: black;
+}
+
+.card-single p {
+    margin: 10px 0;
+    font-weight: lighter;
+    font-size: 16px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    color: black;
+}
+
+
+.cta-button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e65500;
+}
+
+.introducao h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #555;
+}
+
+.beneficios {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+.beneficios li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.beneficios li::before {
+    content: "✔️";
+    margin-right: 8px;
+}
+
+.cta-button.secondary {
+    background-color: #0073e6;
+    margin-left: 10px;
+}
+
+.cta-button.secondary:hover {
+    background-color: #005bb5;
+}
+
+.funcionalidades {
+    background: #f9f9f9;
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.funcionalidades h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.funcionalidades-descricao {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.funcionalidades-lista {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.funcionalidades-lista li {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #333;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.funcionalidades-lista li span {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.faq {
+    background: #ffffff;
+    color: #333;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.faq-item h3 {
+    font-size: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-item p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+    display: none; /* Escondido por padrão */
+}
+
+.faq-item.open p {
+    display: block; /* Mostra a resposta quando a pergunta é clicada */
+}
+
+.faq-item:hover {
+    background-color: #f9f9f9;
+}
