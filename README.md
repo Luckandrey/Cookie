@@ -32,61 +32,18 @@ Certifique-se de ter instalado em sua máquina:
    ```bash
    git clone https://github.com/Luckandrey/Cookie.git
    cd Cookie
-Instale as dependências:
-bash
-Copiar
+2. Instale as dependências:
 npm install
 ou, se preferir:
-bash
-Copiar
 yarn install
-Uso
-Para iniciar o servidor de desenvolvimento, execute:
 
-bash
-Copiar
+3. Uso
+Para iniciar o servidor de desenvolvimento, execute:
 npm start
 ou, se estiver usando Yarn:
-
-bash
-Copiar
 yarn start
 A aplicação ficará disponível em http://localhost:3000.
 
-Estrutura do Projeto
-arduino
-Copiar
-Cookie/
-├── public/
-│   ├── index.html
-│   ├── favicon.png
-│   └── ...
-├── src/
-│   ├── assets/
-│   │   └── (imagens e ícones)
-│   ├── components/
-│   │   ├── headerForm/
-│   │   │   ├── Navbar.jsx
-│   │   │   └── navbar.css
-│   │   └── footerForm/
-│   │       ├── Footer.jsx
-│   │       └── footer.css
-│   ├── pages/
-│   │   ├── homeForm/
-│   │   │   ├── home.jsx
-│   │   │   └── home.css
-│   │   ├── sobreForm/
-│   │   │   └── Sobre.jsx
-│   │   ├── servicosForm/
-│   │   │   └── Servicos.jsx
-│   │   └── contatoForm/
-│   │       └── Contato.jsx
-│   ├── App.js
-│   ├── index.js
-│   └── ...
-├── package.json
-└── README.md
-Contribuição
 Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 Licença
