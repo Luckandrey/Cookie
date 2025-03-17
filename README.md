@@ -34,18 +34,22 @@ Certifique-se de ter instalado em sua máquina:
    cd Cookie
 2. Instale as dependências:
    ```bash
-npm install
+    npm install
+
 ou, se preferir:
+
     ```bash
-yarn install
+    yarn install
 
 3. Uso
 Para iniciar o servidor de desenvolvimento, execute:
     ```bash
-npm start
+    npm start
+    
 ou, se estiver usando Yarn:
+
     ```bash
-yarn start
+    yarn start
 
 A aplicação ficará disponível em http://localhost:3000.
 
