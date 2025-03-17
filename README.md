@@ -37,8 +37,8 @@ Certifique-se de ter instalado em sua máquina:
     npm install
 
 ou, se preferir:
-
     ```bash
+    
     yarn install
 
 3. Uso
@@ -47,8 +47,8 @@ Para iniciar o servidor de desenvolvimento, execute:
     npm start
     
 ou, se estiver usando Yarn:
-
     ```bash
+    
     yarn start
 
 A aplicação ficará disponível em http://localhost:3000.
