@@ -32,8 +32,10 @@ Certifique-se de ter instalado em sua máquina:
    ```bash
    git clone https://github.com/Luckandrey/Cookie.git
    cd Cookie
+   
 2. Instale as dependências:
    ```bash
+   
     npm install
 
 ou, se preferir:
