@@ -32,28 +32,29 @@ Certifique-se de ter instalado em sua máquina:
    ```bash
    git clone https://github.com/Luckandrey/Cookie.git
    cd Cookie
-   
+   ```
+
 2. Instale as dependências:
    ```bash
+   npm install
+   ```
+   ou, se preferir:
+   ```bash
+   yarn install
+   ```
+
+3. Uso  
+   Para iniciar o servidor de desenvolvimento, execute:
+   ```bash
+   npm start
+   ```
+   ou, se estiver usando Yarn:
+   ```bash
+   yarn start
+   ```
    
-    npm install
+   A aplicação ficará disponível em [http://localhost:3000](http://localhost:3000).
 
-ou, se preferir:
-    ```bash
-    
-    yarn install
-
-3. Uso
-Para iniciar o servidor de desenvolvimento, execute:
-    ```bash
-    npm start
-    
-ou, se estiver usando Yarn:
-    ```bash
-    
-    yarn start
-
-A aplicação ficará disponível em http://localhost:3000.
 
 Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
