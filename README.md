@@ -1,2 +1,22 @@
 # Cookie
-Cookeira – A Experiência Digital Inovadora para os Amantes de Cookies
+Cookeira é uma aplicação web moderna desenvolvida com React e Tailwind CSS que apresenta uma máquina automatizada de cookies de forma inovadora e interativa. Com design responsivo e uma interface intuitiva, o site permite que os usuários explorem funcionalidades exclusivas, conheçam depoimentos de clientes e tirem dúvidas através de um FAQ dinâmico.
+
+Funcionalidades
+Design Moderno e Responsivo: Layout adaptável para dispositivos móveis e desktop.
+Navegação Dinâmica: Menu interativo com versão mobile (hambúrguer) e desktop.
+Seções Interativas:
+Introdução/Hero: Apresenta a máquina de cookies com chamadas para ação.
+Funcionalidades: Lista das principais vantagens e modos de preparo.
+Depoimentos: Cards com feedbacks de usuários.
+FAQ: Perguntas frequentes com respostas expansíveis.
+Footer Personalizado: Integra redes sociais, links de navegação e informações de copyright.
+Tecnologias Utilizadas
+React: Biblioteca para construção de interfaces.
+Tailwind CSS: Framework utility-first para estilização rápida e padronizada.
+React Router: Gerenciamento de rotas para navegação entre páginas.
+React Icons: Ícones vetoriais para redes sociais e outros elementos.
+Pré-requisitos
+Certifique-se de ter instalado em sua máquina:
+
+Node.js (versão LTS recomendada)
+npm ou yarn
