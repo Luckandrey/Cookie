@@ -1,4 +1,4 @@
-import Navbar from '../../components/headerForm/navbar';
+import Navbar from '../../components/headerForm/Navbar';
 import Footer from '../../components/footerForm/Footer';
 import biscoito from '../../assets/maquina_de_fazer_biscoito_industrial.jpg';
 import mulher1 from '../../assets/mulher 1.jpg';

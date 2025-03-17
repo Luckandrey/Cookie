@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram, FaTwitter, FaGoogle, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTwitter, FaGoogle, FaYoutube,} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -41,36 +41,7 @@ const Footer = () => {
             </a>
           </div>
 
-          {/* Navegação */}
-          <nav className="mt-6">
-            <ul className="flex flex-wrap justify-center space-x-6">
-              <li>
-                <a href="/home" className="hover:text-gray-300 transition">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="/" className="hover:text-gray-300 transition">
-                  Notícias
-                </a>
-              </li>
-              <li>
-                <a href="/" className="hover:text-gray-300 transition">
-                  Sobre
-                </a>
-              </li>
-              <li>
-                <a href="/" className="hover:text-gray-300 transition">
-                  Fale conosco
-                </a>
-              </li>
-              <li>
-                <a href="/" className="hover:text-gray-300 transition">
-                  Nossa equipe
-                </a>
-              </li>
-            </ul>
-          </nav>
+          
         </div>
       </div>
 
