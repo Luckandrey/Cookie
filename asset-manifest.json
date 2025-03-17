@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Cookie/static/css/main.db157c45.css",
-    "main.js": "/Cookie/static/js/main.fd7711cc.js",
+    "main.js": "/Cookie/static/js/main.b1b63cd0.js",
     "static/media/Cookie-2.png": "/Cookie/static/media/Cookie-2.a6d6df47342324a0afcf.png",
     "static/media/mulher 2.jpg": "/Cookie/static/media/mulher 2.330811152592330a62ae.jpg",
     "static/media/mulher 1.jpg": "/Cookie/static/media/mulher 1.2b5e061dfa34abb9ce2a.jpg",
@@ -10,10 +10,10 @@
     "static/media/maquina_de_fazer_biscoito_industrial.jpg": "/Cookie/static/media/maquina_de_fazer_biscoito_industrial.d8ee8c08c2e336fdf41e.jpg",
     "index.html": "/Cookie/index.html",
     "main.db157c45.css.map": "/Cookie/static/css/main.db157c45.css.map",
-    "main.fd7711cc.js.map": "/Cookie/static/js/main.fd7711cc.js.map"
+    "main.b1b63cd0.js.map": "/Cookie/static/js/main.b1b63cd0.js.map"
   },
   "entrypoints": [
     "static/css/main.db157c45.css",
-    "static/js/main.fd7711cc.js"
+    "static/js/main.b1b63cd0.js"
   ]
 }
